@@ -1,0 +1,289 @@
+{
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/splash/splash",
+			"style": {
+				"navigationBarTitleText": "启动页",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/article/article",
+			"style" : 
+			{
+				"navigationBarTitleText" : "文章",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/messages/messages",
+			"style" : 
+			{
+				"navigationBarTitleText" : "消息",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/404/404",
+			"style" : 
+			{
+				"navigationBarTitleText" : "页面找不到了",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		},
+		{
+			"path" : "components/Module/ModuleProduct",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/module/module",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "components/Module/ModuleService",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "components/Module/ModuleLive",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/search/search",
+			"style" : 
+			{
+				"navigationBarTitleText" : "搜索",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path" : "subpages/detail/article-detail/article-detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : "詳情",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/user/my-works/my-works",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的作品",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/user/my-collection/my-collection",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的收藏",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/user/browse-history/browse-history",
+			"style" : 
+			{
+				"navigationBarTitleText" : "瀏覽歷史",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/transaction/my-orders/my-orders",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的訂單",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/transaction/coupons/coupons",
+			"style" : 
+			{
+				"navigationBarTitleText" : "優惠券",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/transaction/points-mall/points-mall",
+			"style" : 
+			{
+				"navigationBarTitleText" : "積分商城",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/social/invite/invite",
+			"style" : 
+			{
+				"navigationBarTitleText" : "邀請好友",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/social/customer-service/customer-service",
+			"style" : 
+			{
+				"navigationBarTitleText" : "客服中心",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/user/profile/profile",
+			"style" : 
+			{
+				"navigationBarTitleText" : "個人信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/user/settings/settings",
+			"style" : 
+			{
+				"navigationBarTitleText" : "設置",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path" : "subpages/user/about/about",
+			"style" : 
+			{
+				"navigationBarTitleText" : "關於我們",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black"
+			}
+		}
+	],
+	//分页下载
+	"subPackages": [{
+		    "root": "subpages",
+			"pages" : 
+			[
+				{
+					"path" : "news/news",
+					"style" : 
+					{
+						"navigationBarTitleText" : "新闻中心"
+					}
+				},
+				{
+					"path" : "chat/chat",
+					"style" : 
+					{
+						"navigationBarTitleText" : "聊天机器人"
+					}
+				},
+				{
+					"path": "topic/topic",
+					"style": {
+						"navigationBarTitleText": "话题"
+					}
+				}
+			]
+		}
+	],
+	// //预下载分包设置
+	// "preloadRule":{
+	// 	"pages/index":{
+	// 		"network": "all",
+
+	// 		"packages": ["activities"]
+	// 	}
+	// },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#000000",
+		"borderStyle": "black",
+		"backgroundColor": "#f8f8f8",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/index_icon.png",
+			"selectedIconPath": "static/index_filled_icon.png",
+			"text": "首页"
+		},
+		{
+			"pagePath": "pages/article/article",
+			"iconPath": "static/article_icon.png",
+			"selectedIconPath": "static/article_fill_icon.png",
+			"text": "趣文"
+		},
+		{
+			"pagePath": "pages/messages/messages",
+			"iconPath": "static/volume_up_circle_icon.png",
+			"selectedIconPath": "static/volume_up_circle_f_icon.png",
+			"text": "消息"
+		},
+		{
+			"pagePath": "pages/my/my",
+			"iconPath": "static/male_man_profile_woman_icon.png",
+			"selectedIconPath": "static/male_man_F_profile_woman_icon.png",
+			"text": "我"
+		}]
+	},
+	"uniIdRouter": {}
+}

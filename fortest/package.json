@@ -1,0 +1,33 @@
+{
+  "name": "fortest",
+  "version": "1.0.0",
+  "description": "基於 uni-app 的跨平台移動應用",
+  "main": "main.js",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "dev:h5": "uni -p h5",
+    "build:h5": "uni build -p h5",
+    "dev:app": "uni -p app",
+    "build:app": "uni build -p app"
+  },
+  "keywords": [
+    "uni-app",
+    "vue3",
+    "mobile"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cropperjs": "^1.6.1",
+    "vue": "^3.2.0",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "@dcloudio/uni-cli-shared": "*",
+    "@dcloudio/uni-stacktracey": "*",
+    "@dcloudio/vite-plugin-uni": "*",
+    "vite": "^4.0.0"
+  }
+}
+
